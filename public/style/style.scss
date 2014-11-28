@@ -1,0 +1,42 @@
+
+/* Define common variables */
+$font-stack:    Helvetica, sans-serif;
+$main-blue: #b4dbeb;
+$font-color: #223030;
+$success-color: #4F8A10;
+$warning-color: #9F6000;
+$error-color: #D8000C;
+
+/* Reset CSS */
+@import 'reset';
+
+/* Declare Mixins */
+@import 'mixins';
+
+body {
+    font-size: 100%;
+}
+
+p {
+    font: $font-stack;
+    color: $font-color;
+}
+
+h1 {
+    font: $font-stack;
+    color: $font-color;
+    font-size: 2em;
+}
+
+h2 {
+    font: $font-stack;
+    color: $font-color;
+    font-size: 1.5em;
+}
+
+/* Header Section */
+@import 'header';
+
+/* Flash Messages Section */
+@import 'messages';
+

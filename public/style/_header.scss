@@ -1,0 +1,17 @@
+
+.header{
+    
+    .ul{
+        list-style-type: none;
+    }
+    
+    a{
+        color: #000;
+        text-decoration: none;
+    }
+    
+    .btn{
+        @include border-radius(50%);
+    }
+    
+}
